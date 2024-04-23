@@ -86,7 +86,7 @@ nav{
     font-weight: 700;
     /* font-size: clamp(1rem, 1.2vw, 3rem); */
     color: white;
-    transform: translateX(-40%);
+    /* transform: translateX(-40%); */
 }
 
 nav ul{
@@ -808,7 +808,10 @@ footer{
     margin: 0;
     letter-spacing: 2.5px;
 }
-
+#real-logo {
+    width: 40px;
+    height: 30px;
+}
 /* Hide description text by default */
 .careersSlideshowPageTwo  .scard .descriptionContractor {
     display: none;
@@ -1609,7 +1612,8 @@ input[type='file']::-webkit-file-upload-button{
     background-size: cover;
 }
 .home-image-icon {
-    transform: translate(-35%, -45%);
+    /* transform: translate(-35%, -45%); */
+    width: 20px;
 }
 
 
@@ -1987,11 +1991,10 @@ input[type='file']::-webkit-file-upload-button{
         width: 30%;
     }
     .logo-text{
-        transform: translateX(-20%)
+        transform: translateX(-1%)
     }
 
     .footer-logo-text{
         transform: translateX(10%)
     }
 }
-
