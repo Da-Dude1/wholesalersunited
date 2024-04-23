@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta name="description" content="Website for jobs at wholsalers united">
+        <meta name="author" content="(Abhinav, Prasanna, Sathvik)">
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <script src="https://kit.fontawesome.com/df8a439682.js" crossorigin="anonymous"></script>
+        <link rel="stylesheet" href="style.css" type="text/css">
+        <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
+        <title>Wholsalers United</title>
+    </head>
+    <body>
+            <nav class="nav">
+                <div class="logo-container">
+                    <a href="index.html" class="index-page">
+                        <img src="assets/logo-black.png" alt="Company Logo" id="real-logo" class="home-image-icon">
+                        <h2 class="logo-text" style="color: black;">Wholesalers United</h2>
+                    </a>
+                </div>
+                <ul class="nav-link-container">
+                    <li class="nav-item"><a href="careers.html" style="cursor:pointer; color:black"> Our Careers</a></li>
+                    <li class="nav-item"><a href="benefits.html" style="cursor:pointer; color:black">Our Benefits</a></li>
+                    <li class="nav-item"><a href="ourStory.html" style="cursor:pointer; color:black">Our Story</a></li>
+                    <button class="nav-item-join"><a href="joinus.html" style="cursor:pointer">Join us</a></button>
+                </ul>
+                <div class="hamburger">
+                    <div class="bline"></div>
+                    <div class="bline"></div>
+                    <div class="bline"></div>
+                </div>
+            </nav>
+
+            <section class="career">
+                <div class="section-header-container-career-bar">
+                    <h2 class="section-header-career">Choose Your Career</h2>
+                </div>
+            </section>
+            <section class="search-filter">
+                <div class="search">
+                    <div id="div-shorty">
+                        <input type="search" name="search" id="searchInput" placeholder="Search by name"/>
+                    </div>
+                    <div>
+                        <select id="salaryFilter">
+                            <option value="0">Any Salary</option>
+                            <option value="50000">Above 50k</option>
+                            <option value="80000">Above 80k</option>
+                            <option value="100000">Above 100k</option>
+                            <option value="150000">Above 150k</option>
+                        </select>
+                    </div>
+                    <div>
+                        <select id="roleFilter">
+                            <option value="0">Any Role</option>
+                            <option value="1">Individual</option>
+                            <option value="2">Group</option>
+                        </select>
+                    </div>
+                </div>
+                
+            </section>
+            <section class="jobs">
+                <section class="jobs-left">
+                    <div class="jobs-bar">
+                        <div class="jobs-bar-card" data-salary="151000" data-role="2">
+                            <div id="Jmanager" class="job-item">
+                                <div class="section-header-container-career-bar"> 
+                                    <h3 class="section-header-job">Junior Manager</h2>
+                                </div>
+                                <div class="job-description-bar">
+                                    <p class="description-job-bar">Junior managers will be working closely with associates as their superior and will provide associates with extensive feedback ...</p>
+                                    <br>
+                                    <!-- <button class="jobs-button"><a href="#manager" class="jobs-button-a">View more Info</a></button> -->
+                                    <a class="jobs-button" onclick="openPopup('manager')"><button>View More Info</button></a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+                        <div class="jobs-bar-card" data-salary="101000" data-role="2">
+                            <div id="Jcontractor" class="job-item">
+                                <div class="section-header-container-career-bar"> 
+                                    <h2 class="section-header-job">Junior Contractor</h2>
+                                </div>
+                                <div class="job-description-bar">
+                                    <p class="description-job-bar">Junior Contractors will be working closely with sales associates in order to make the most profit out of each contractual deal. They will be...</p>
+                                    <br>
+                                    <a class="jobs-button" onclick="openPopup('contracter')"><button>View More Info</button></a>
+                                </div>
+                                <br>
+                            </div>
+        
+                        </div>
+    
+                        <div class="jobs-bar-card" data-salary="112000" data-role="2">
+                            <div id="Jsales" class="job-item">
+                                <div class="section-header-container-career-bar"> 
+                                    <h2 class="section-header-job">Junior Sales Associate</h2>
+                                </div>
+                                <div class="job-description-bar">
+                                    <p class="description-job-bar">Junior sales associates will work closely with contracting associates in attempts to sell a contracted property. There will be a lot of work...</p>
+                                    <br>
+                                    <a class="jobs-button" onclick="openPopup('sales')"><button>View More Info</button></a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+    
+                        <div class="jobs-bar-card" data-salary="85000" data-role="1">
+                            <div id="marketing" class="job-item">
+                                <div class="section-header-container-career-bar"> 
+                                    <h2 class="section-header-job">Marketing Specialist</h2>
+                                </div>
+                                <div class="job-description-bar">
+                                    <p class="description-job-bar">Marketing Specialists play a crucial role in promoting the company's properties and attracting potential sellers and buyers. They are responsible for...</p>
+                                    <br>
+                                    <a class="jobs-button" onclick="openPopup('specialist')"><button>View More Info</button></a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+    
+                        <div class="jobs-bar-card" data-salary="90000" data-role="1">
+                            <div id="financial" class="job-item">
+                                <div class="section-header-container-career-bar"> 
+                                    <h2 class="section-header-job">Financial Analyst</h2>
+                                </div>
+                                <div class="job-description-bar">
+                                    <p class="description-job-bar">Financial Analysts play a vital role in the company's financial decision-making processes. They analyze data to provide valuable insights into profit margins...</p>
+                                    <br>
+                                    <a class="jobs-button" onclick="openPopup('analyist')"><button>View More Info</button></a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+    
+                        <div class="jobs-bar-card" data-salary="51000"  data-role="2">
+                            <div id="coordinator" class="job-item">
+                                <div class="section-header-container-career-bar"> 
+                                    <h2 class="section-header-job">Human Resources Coordinator</h2>
+                                </div>
+                                <div class="job-description-bar">
+                                    <p class="description-job-bar">Human Resources Coordinators contribute to the effective functioning of the HR department. They assist in recruitment, maintain employee records...</p>
+                                    <br>
+                                    <a class="jobs-button" onclick="openPopup('hr')"><button>View More Info</button></a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+    
+                        <div class="jobs-bar-card"data-salary="60000" data-role="1">
+                            <div id="support" class="job-item" >
+                                <div class="section-header-container-career-bar"> 
+                                    <h2 class="section-header-job">IT Support Specialist</h2>
+                                </div>
+                                <div class="job-description-bar">
+                                    <p class="description-job-bar">IT Support Specialists play a crucial role in maintaining the company's technology infrastructure. They...</p>
+                                    <br>
+                                    <a class="jobs-button" onclick="openPopup('it')"><button>View More Info</button></a>
+                                </div>
+                                <br>
+                            </div>
+                        </div>
+    
+                        <div class="jobs-bar-card" data-salary="70000" data-role="1">
+                            <div id="Pmanager" class="job-item">
+                                <div class="section-header-container-career-bar"> 
+                                    <h2 class="section-header-job">Property Manager</h2>
+                                </div>
+                                <div class="job-description-bar">
+                                    <p class="description-job-bar">Property Managers are responsible for the day-to-day operations of rental properties. They handle tenant interactions, property...</p>
+                                    <br>
+                                    <a class="jobs-button" onclick="openPopup('property')"><button>View More Info</button></a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+            </section>
+            <section class="jobs-right">
+                <div id="manager" class="popup">
+                    
+                    <span class="close-btn" onclick="closePopup('manager')" style="color: white">&times;</span>
+                 
+                    <div class="job-description">
+                        <div class="banner-join"></div>
+                        <div class="job-description-inner">
+                            <h2 class="section-header-job">Junior Manager</h2>
+                            <h4 class="section-header-job-1"> Overview</h4>
+                            <p class="description-job">Junior managers will be working closely with associates as their superior and will provide associates with extensive feedback and assistance. They will also be required to act as substitutes for associates in select cases.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Responsibilites</h4>
+                            <p class="description-job">Managers recruit, hire, and train new members of the sales staff. Managers direct organizations' teams. They set goals, analyze data, and develop training programs for organizations' representatives. And lastly, they organize documents and monitor their associates’ work.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Salary</h4>
+                            <p class="description-job">Ranges from $150,112 - $300,000</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Necessary Qualifications</h4>
+                            <p class="description-job">Demonstrate adequate leadership expertise and be a top sales or contracting associate.</p>
+                            <br>
+                            <a class="jobs-button" href="application.html"><button>Apply Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="contracter" class="popup">
+                    
+                    <span class="close-btn" onclick="closePopup('contracter')" style="color: white">&times;</span>
+                 
+                    <div class="job-description">
+                        <div class="banner-join"></div>
+                        <div class="job-description-inner">
+                            <h2 class="section-header-job">Junior Contractor</h2>
+                            <h4 class="section-header-job-1"> Overview</h4>
+                        <p class="description-job">Junior Contractors will be working closely with sales associates in order to make the most profit out of each contractual deal. They will be expected to work together with sales associates to help sales associates work out reasonable deals between buyer and seller.</p>
+                        <br>
+                        <h4 class="section-header-job-1"> Responsibilites</h4>
+                        <p class="description-job">Junior Contractors find an owner wishing to sell a property and put the property under contract. They will document the whole contracting process and provide the contract to sales associates.</p>
+                        <br>
+                        <h4 class="section-header-job-1"> Salary</h4>
+                        <p class="description-job">Ranges from $101,123 - $176,742</p>
+                        <br>
+                        <h4 class="section-header-job-1"> Necessary Qualifications</h4>
+                        <p class="description-job">Be able to put properties under contract that can realistically have profit on. Contractors should have good judgment to discern when to be strong and when to compromise.</p>
+                        <br>
+                        <a class="jobs-button" href="application.html"><button>Apply Now</button></a>
+                        </div>
+                    </div>
+                </div>
+                <div id="sales" class="popup">
+                    
+                    <span class="close-btn" onclick="closePopup('sales')" style="color: white">&times;</span>
+                 
+                    <div class="job-description">
+                        <div class="banner-join"></div>
+                        <div class="job-description-inner">
+                            <h2 class="section-header-job">Junior Sales Associate</h2>
+                            <h4 class="section-header-job-1"> Overview</h4>
+                            <p class="description-job">Junior sales associates will work closely with contracting associates in attempts to sell a contracted property. There will be a lot of work with outside parties and being able to manage multiple people at once.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Responsibilites</h4>
+                            <p class="description-job">Junior sales associates will be expected to organize a list of potential buyers for a contractual property they received from other contracting associates. Occasionally, junior associates will be expected to negotiate their own deal with a buyer in the absence of their supervisor or if their supervisor gives said associate the opportunity.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Salary</h4>
+                            <p class="description-job">Ranges from $112,342 - $203,224</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Necessary Qualifications</h4>
+                            <p class="description-job">Demonstrate bargaining abilities and confidence. Sales associates should be able to hold their ground in a negotiation. Have good judgment.</p>
+                            <br>
+                            <a class="jobs-button" href="application.html"><button>Apply Now</button></a>
+    
+                        </div>
+                    </div>
+                </div>
+                <div id="specialist" class="popup">
+                    
+                    <span class="close-btn" onclick="closePopup('specialist')" style="color: white">&times;</span>
+                 
+                    <div class="job-description">
+                        <div class="banner-join"></div>
+                        <div class="job-description-inner">
+                            <h2 class="section-header-job">Marketing Specialist</h2>
+                            <h4 class="section-header-job-1"> Overview</h4>
+                            <p class="description-job">Marketing Specialists play a crucial role in promoting the company's properties and attracting potential sellers and buyers. They are responsible for developing and executing effective marketing strategies, utilizing various channels to maximize visibility.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Responsibilites</h4>
+                            <p class="description-job">As a Marketing Specialist, you'll create effective strategies to attract property sellers and buyers. Managing online and offline campaigns, you'll use different channels to showcase our properties. Your expertise in social media and advertising enhances property visibility, contributing to successful transactions and strengthening the company's market position.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Salary</h4>
+                            <p class="description-job">Ranges from $85,000 - $120,000</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Necessary Qualifications</h4>
+                            <p class="description-job">Ideal Marketing Specialist: Strong marketing background, understanding real estate trends, creative and analytical skills, familiarity with digital tools. Ensures successful campaign execution and achievement of marketing objectives.</p>
+                            <br>
+                            <a class="jobs-button" href="application.html"><button>Apply Now</button></a>
+    
+                        </div>
+                    </div>
+                </div>
+                <div id="analyist" class="popup">
+                    
+                    <span class="close-btn" onclick="closePopup('analyist')" style="color: white">&times;</span>
+                 
+                    <div class="job-description">
+                        <div class="banner-join"></div>
+                        <div class="job-description-inner">
+                            <h2 class="section-header-job">Financial Analyst</h2>
+                            <h4 class="section-header-job-1"> Overview</h4>
+                            <p class="description-job">Financial Analysts play a vital role in the company's financial decision-making processes. They analyze data to provide valuable insights into profit margins and investment opportunities. Additionally, they contribute to financial planning and forecasting to support the company's overall financial strategy.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Responsibilites</h4>
+                            <p class="description-job">As a Financial Analyst, you'll analyze property financial data, provide insights for strategic decisions, and assist in financial planning for overall company success.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Salary</h4>
+                            <p class="description-job">Ranges from $90,000 - $130,000</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Necessary Qualifications</h4>
+                            <p class="description-job">Financial Analyst qualifications: experience in financial analysis, understanding of real estate investment principles, proficiency in financial modeling and data analysis, strong attention to detail, and analytical skills.</p>
+                            <br>
+                            <a class="jobs-button" href="application.html"><button>Apply Now</button></a>
+    
+                        </div>
+                    </div>
+                </div>
+                <div id="hr" class="popup">
+                    
+                    <span class="close-btn" onclick="closePopup('hr')" style="color: white">&times;</span>
+                 
+                    <div class="job-description">
+                        <div class="banner-join"></div>
+                        <div class="job-description-inner">
+                            <h2 class="section-header-job">Human Resources Coordinator</h2>
+                            <h4 class="section-header-job-1"> Overview</h4>
+                            <p class="description-job">Human Resources Coordinators contribute to the effective functioning of the HR department. They assist in recruitment, maintain employee records, and support various HR initiatives to foster a positive work environment.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Responsibilites</h4>
+                            <p class="description-job">As a key contributor, your responsibilities include assisting in recruitment processes, managing employee records to ensure HR policy compliance, and providing support in HR initiatives, training programs, and employee relations.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Salary</h4>
+                            <p class="description-job">Ranges from $55,000 - $75,000</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Necessary Qualifications</h4>
+                            <p class="description-job">For this role, essential qualifications include previous experience in HR or a related field, familiarity with HR policies and procedures, as well as strong organizational and interpersonal skills.</p>
+                            <br>
+                            <a class="jobs-button" href="application.html"><button>Apply Now</button></a>
+    
+                        </div>
+                    </div>
+                </div>
+                <div id="hr" class="popup">
+                    
+                    <span class="close-btn" onclick="closePopup('hr')" style="color: white">&times;</span>
+                 
+                    <div class="job-description">
+                        <div class="banner-join"></div>
+                        <div class="job-description-inner">
+                            <h2 class="section-header-job">Human Resources Coordinator</h2>
+                            <h4 class="section-header-job-1"> Overview</h4>
+                            <p class="description-job">Human Resources Coordinators contribute to the effective functioning of the HR department. They assist in recruitment, maintain employee records, and support various HR initiatives to foster a positive work environment.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Responsibilites</h4>
+                            <p class="description-job">As a key contributor, your responsibilities include assisting in recruitment processes, managing employee records to ensure HR policy compliance, and providing support in HR initiatives, training programs, and employee relations.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Salary</h4>
+                            <p class="description-job">Ranges from $55,000 - $75,000</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Necessary Qualifications</h4>
+                            <p class="description-job">For this role, essential qualifications include previous experience in HR or a related field, familiarity with HR policies and procedures, as well as strong organizational and interpersonal skills.</p>
+                            <br>
+                            <a class="jobs-button" href="application.html"><button>Apply Now</button></a>
+    
+                        </div>
+                    </div>
+                </div>
+                <div id="it" class="popup">
+                    
+                    <span class="close-btn" onclick="closePopup('it')" style="color: white">&times;</span>
+                 
+                    <div class="job-description">
+                        <div class="banner-join"></div>
+                        <div class="job-description-inner">
+                            <h2 class="section-header-job">IT Support Specialist</h2>
+                            <h4 class="section-header-job-1"> Overview</h4>
+                            <p class="description-job">IT Support Specialists play a crucial role in maintaining the company's technology infrastructure. They provide technical assistance to employees, ensuring smooth operations of computer systems and networks.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Responsibilites</h4>
+                            <p class="description-job">As an IT Support Specialist, your role involves providing technical support for hardware and software issues, installing, configuring, and troubleshooting computer systems and network equipment. Collaboration with IT teams is key to implementing and maintaining the technology infrastructure.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Salary</h4>
+                            <p class="description-job">Ranges from $60,000 - $85,000</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Necessary Qualifications</h4>
+                            <p class="description-job">The essential qualifications for the IT Support Specialist role include proven experience in IT support, knowledge of hardware and software troubleshooting, and strong communication and problem-solving skills.</p>
+                            <br>
+                            <a class="jobs-button" href="application.html"><button>Apply Now</button></a>
+    
+                        </div>
+                    </div>
+                </div>
+                <div id="property" class="popup">
+                    
+                    <span class="close-btn" onclick="closePopup('property')" style="color: white">&times;</span>
+                 
+                    <div class="job-description">
+                        <div class="banner-join"></div>
+                        <div class="job-description-inner">
+                            <h2 class="section-header-job">Property Manager</h2>
+                            <h4 class="section-header-job-1"> Overview</h4>
+                            <p class="description-job">Property Managers are responsible for the day-to-day operations of rental properties. They handle tenant interactions, property maintenance, and financial aspects to ensure smooth and profitable property management.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Responsibilites</h4>
+                            <p class="description-job">Property Manager Responsibilities: Oversee rental properties, manage tenant relations, ensure regulatory compliance, and handle financial aspects, including rent collection and budget management.</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Salary</h4>
+                            <p class="description-job">Ranges from $70,000 - $100,000</p>
+                            <br>
+                            <h4 class="section-header-job-1"> Necessary Qualifications</h4>
+                            <p class="description-job">The essential qualifications for Property Manager include property management experience, knowledge of local housing regulations, and strong organizational and interpersonal skills.</p>
+                            <br>
+                            <a class="jobs-button" href="application.html"><button>Apply Now</button></a>
+    
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </section>
+        <footer>
+            <div class="description-and-logo">
+                <div class="logo-container footer-logo-container">
+                    <a href="/">
+                        <h2 class="footer-logo-text">Wholesalers United</h2>
+                    </a>
+                </div>
+                <p class="footer-description">
+                    Wholesalers United is the most united company in the world. We treat everyone as family and provide everyone with equal opportunity. We are a company of opportunity and success.
+                </p>
+            </div>
+            <div class="site-links-section">
+                <h2 class="footer-header">Site Links</h2>
+                <ul class="site-links">
+                    <li class="nav-item"><a href="index.html" style="cursor:pointer">Home</a></li>
+                    <li class="nav-item"><a href="careers.html" style="cursor:pointer">Our Careers</a></li>
+                    <li class="nav-item"><a href="benefits.html" style="cursor:pointer">Our Benefits</a></li>
+                    <li class="nav-item"><a href="ourStory.html" style="cursor:pointer">Our Story</a></li>
+                    <li class="nav-item"><a href="joinus.html" style="cursor:pointer">Join Us</a></li>
+                </ul>
+            </div>
+            <div class="contact-info">
+                <h2 class="footer-header">Contact</h2>
+                <div class="contact-method">
+                    <h3 class="contact-method-heading">Email</h3>
+                    <p class="contact-method-description"><a href="">wholesalersun@gmail.com</a></p>
+                
+                    <h3 class="contact-method-heading">Phone Number</h3>
+                    <p class="contact-method-description"><a href="">425-877-9593</a></p>
+                
+                    <h3 class="contact-method-heading">Social Media</h3>
+                    <div class="social-media-container">
+                        <a href="https://www.instagram.com/race.2space/"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="index.html"><i class="fa-brands fa-tiktok"></i></a>
+                        <a href="index.html"><i class="fa-brands fa-youtube"></i></a>
+                        <a href="index.html"><i class="fa-brands fa-square-facebook"></i></a>
+                        <a href="index.html"><i class="fa-brands fa-square-twitter"></i></a>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-map">
+                <iframe
+                    width="100%"
+                    height="100%"
+                    frameborder="0" style="border:0"
+                    referrerpolicy="no-referrer-when-downgrade"
+                    src="https://www.google.com/maps/embed/v1/place?key=AIzaSyBC4UJkv5-2PbhkRi8SfVWRxBMUucpZniI&q=Eiffel+Tower,Paris+France"
+                    allowfullscreen>
+                </iframe>
+            </div>
+        </footer>
+        <script src="index.js"></script>
+        <script>
+            document.addEventListener('DOMContentLoaded', function () {
+                const searchInput = document.getElementById('searchInput');
+                const salaryFilter = document.getElementById('salaryFilter');
+                const roleFilter = document.getElementById('roleFilter');
+                const jobItems = document.querySelectorAll('.jobs-bar-card');
+
+                searchInput.addEventListener('input', function () {
+                    filterJobs();
+                });
+
+                salaryFilter.addEventListener('change', function () {
+                    filterJobs();
+                });
+
+                roleFilter.addEventListener('change', function () {
+                    filterJobs();
+                });
+
+                function filterJobs() {
+                    const searchTerm = searchInput.value.toLowerCase();
+                    const selectedSalary = parseInt(salaryFilter.value);
+                    const selectedRole = parseInt(roleFilter.value);
+
+                    jobItems.forEach(function (job) {
+                        const jobTitle = job.querySelector('.section-header-job').innerText.toLowerCase();
+                        const jobSalary = parseInt(job.dataset.salary);
+                        const jobRole = parseInt(job.dataset.role);
+
+                        const titleMatch = jobTitle.includes(searchTerm);
+                        const salaryMatch = jobSalary > selectedSalary || selectedSalary === 0;
+                        const roleMatch = jobRole === selectedRole || selectedRole === 0;
+
+                        if (titleMatch && salaryMatch && roleMatch) {
+                            job.style.display = 'block';                           
+                        } else {
+                            job.style.display = 'none';
+                        }
+                    });
+                }
+            });
+
+            var isPopupOpen =false; 
+            function openPopup(job) {
+                if(!isPopupOpen){
+                    document.getElementById(job).style.display = 'flex';
+                    isPopupOpen = true;
+                }
+            }
+
+            function closePopup(job) {
+                document.getElementById(job).style.display = 'none';
+                isPopupOpen =false; 
+            }
+
+            document.getElementById("openPopupButton").addEventListener("click", function() {
+                if (window.innerWidth < 1000) {
+                    openPopup();
+                }
+            });
+
+            // Check viewport width and display popup accordingly
+            window.addEventListener('resize', function() {
+                if (window.innerWidth < 1000 && document.getElementById("popup").style.display !== "none") {
+                    openPopup();
+                } else {
+                    closePopup();
+                }
+            });
+        </script>
+    </body>
+</html>
