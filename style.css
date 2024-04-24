@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap');
+f@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@200&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Krona+One&display=swap');
 
 :root{
@@ -1451,7 +1451,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(100% - 7vw);
+    height: calc(2vw - 7vw);
 }
 
 
@@ -2002,7 +2002,7 @@ input[type='file']::-webkit-file-upload-button{
         transform: translateX(10%)
     }
 
-    nav{
+/*     nav{
         height:200px;
-    }
+    } */
 }
