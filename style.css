@@ -527,7 +527,18 @@ footer{
         color: black;
     }
 
-    
+    .why{
+        margin-top: 10%;
+        height: fit-content;
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+        padding: 1vw 7vw 5vw;
+        background-color: white;
+        gap:8rem;
+        padding-bottom: 20%;
+    }
 
     .line {
         width: 30px;
