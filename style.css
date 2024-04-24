@@ -267,7 +267,8 @@ nav ul{
     display: flex;
     flex-direction: column;
     align-items: center;
-    width: 300px;
+    width: 350px;
+    height: 400px;
     border-radius: 10px;
     box-shadow: 0 4px 24px -8px rgba(1, 69, 103, 1);
     background-color: rgb(0, 0, 0);
@@ -527,18 +528,7 @@ footer{
         color: black;
     }
 
-    .why{
-        margin-top: 10%;
-        height: fit-content;
-        display: flex;
-        flex-wrap: wrap;
-        align-items: center;
-        justify-content: center;
-        padding: 1vw 7vw 5vw;
-        background-color: white;
-        gap:8rem;
-        padding-bottom: 20%;
-    }
+    
 
     .line {
         width: 30px;
@@ -664,7 +654,8 @@ footer{
     }
 
     body{
-        cursor: default;
+        cursor: defaul
+        t;
     }
 
     .hero-right{
@@ -733,7 +724,6 @@ footer{
 @media only screen and (max-width: 1100px) {
     .hero-careers {
         height: 40vh;
-        background-attachment: fixed;
     }
 }
 
