@@ -1451,7 +1451,7 @@ a{
     display: flex;
     align-items: center;
     justify-content: center;
-    height: calc(2vw - 7vw);
+/*     height: calc(2vw - 7vw); */
 }
 
 
