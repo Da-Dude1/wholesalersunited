@@ -1,104 +1,133 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta name="description" content="Website for jobs at wholsalers united">
+        <!-- Metadata for the webpage -->
+        <meta name="description" content="Website for jobs at wholesalers united">
         <meta name="author" content="(Abhinav, Prasanna, Sathvik)">
+        <!-- Character encoding and viewport settings -->
         <meta charset="UTF-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+        <!-- Link to Font Awesome CSS -->
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css" integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+        <!-- Link to custom stylesheet -->
         <link rel="stylesheet" href="style.css" type="text/css">
+
+        <!-- Shortcut icon -->
         <link rel="shortcut icon" href="./assets/logo.png" type="image/x-icon">
-        <title>Wholsalers United</title>
+
+        <!-- Title of the webpage -->
+        <title>Wholesalers United</title>
     </head>
     <body>
+        <!-- Main content of the webpage -->
         <main class="hero-careers">
+            <!-- Navigation section -->
             <nav class="nav">
+                <!-- Logo container with link to index page -->
                 <div class="logo-container">
                     <a href="index.html" class="index-page">
                         <img src="assets\logo.png" alt="Company Logo" id="real-logo">
                         <h2 class="logo-text">Wholesalers United</h2>
                     </a>
                 </div>
+                <!-- Navigation links -->
                 <ul class="nav-link-container">
                     <li class="nav-item"><a href="careers.html" style="cursor:pointer"> Our Careers</a></li>
                     <li class="nav-item"><a href="benefits.html" style="cursor:pointer">Our Benefits</a></li>
                     <li class="nav-item"><a href="ourStory.html" style="cursor:pointer">Our Story</a></li>
+                    <!-- Join us button -->
                     <button class="nav-item-join"><a href="joinus.html" style="cursor:pointer">Join us</a></button>
                 </ul>
+                <!-- Hamburger menu for mobile navigation -->
                 <div class="hamburger">
                     <div class="line"></div>
                     <div class="line"></div>
                     <div class="line"></div>
                 </div>
             </nav>
+            <!-- Hero section -->
             <div class="hero-main">
                 <div class="hero-left">
+                    <!-- Heading and description -->
                     <h1 class="hero-heading">A Career For Everyone</h1>
-                    <p class="hero-description">At wholesalers united we have jobs to accomodate for every type of personality</p>
+                    <p class="hero-description">At Wholesalers United we have jobs to accommodate for every type of personality</p>
                 </div>
             </div>
         </main>
+        
+        <!-- Slideshow section -->
         <span class="careersSlideshowPageTwo">
-            <div class = "careeHeading">
+            <!-- Heading for the slideshow -->
+            <div class="careeHeading">
                 <h2>A Path for All</h2>
             </div>
-            <div class ="wrapper">
+            <div class="wrapper">
+                <!-- Radio buttons for slideshow -->
                 <input type="radio" name="slide" id="c1" checked>
                 <label for="c1" class="scard">
                     <div class="icon">1</div>
-                    <div class="row" class = "grow">
+                    <div class="row" class="grow">
+                        <!-- Description for first slide -->
                         <div class="descriptionContractor">
-                            <h4>Managment</h4>
+                            <h4>Management</h4>
                             <p class="slidecards">Effective managers possess strong leadership, strategic thinking, and decision-making abilities. 
                                 They communicate clearly, adapt to challenges, and foster a positive work environment. They understand delegation and trust team members to execute tasks. Time management and organizational skills are crucial for prioritizing tasks and ensuring smooth business operations. Successful managers also demonstrate adaptability and resilience, fostering a positive and collaborative work environment.</p>
                         </div>
                     </div>
                 </label>
-                
-                <input type="radio" name="slide" id="c2" >
+                <!-- Radio button and label for second slide -->
+                <input type="radio" name="slide" id="c2">
                 <label for="c2" class="scard">
                     <div class="icon">2</div>
-                    <div class="row" class = "grow">
-                        
-                        <div class="descriptionContractor" >
+                    <div class="row" class="grow">
+                        <!-- Description for second slide -->
+                        <div class="descriptionContractor">
                             <h4>Contractor</h4>
                             <p>Contracting roles require strong communication, organizational abilities, adaptability, attention to detail, problem-solving skills, and leadership. Communication is crucial for conveying project requirements to stakeholders, while organizational abilities ensure efficient project management. Adaptability is essential for navigating challenges, while attention to detail ensures work quality. Problem-solving skills enable on-site solutions. Successful contractors motivate teams, make informed decisions, and foster a collaborative environment.</p>
                         </div>
                     </div>
                 </label>
-                
-                    <input type="radio" name = "slide" id = "c3" >
-                        <label for="c3" class = "scard">
-                            <div class = "icon">3</div>
-                            <div class = "row" class = "grow">
-                                <div class = "descriptionContractor">
-                                    <h4>Sales</h4>
-                                    <p>Sales professionals require interpersonal skills, persuasive communication, a proactive mindset, adaptability, and resilience to succeed. They must understand customer needs, tailor their approach, and maintain a positive attitude. They must be proactive, self-motivated, and resilient in the face of rejection. They must continuously expand their product knowledge and stay informed about industry trends to better serve clients and meet targets in a dynamic sales environment</p>
-                                </div>
-                            </div>
-                        </label> 
-                
+                <!-- Radio button and label for third slide -->
+                <input type="radio" name="slide" id="c3">
+                <label for="c3" class="scard">
+                    <div class="icon">3</div>
+                    <div class="row" class="grow">
+                        <!-- Description for third slide -->
+                        <div class="descriptionContractor">
+                            <h4>Sales</h4>
+                            <p>Sales professionals require interpersonal skills, persuasive communication, a proactive mindset, adaptability, and resilience to succeed. They must understand customer needs, tailor their approach, and maintain a positive attitude. They must be proactive, self-motivated, and resilient in the face of rejection. They must continuously expand their product knowledge and stay informed about industry trends to better serve clients and meet targets in a dynamic sales environment</p>
+                        </div>
+                    </div>
+                </label> 
             </div>
         </span>
         
-            
-            <!-- Full-width images with number and caption text -->
+        <!-- JavaScript file -->
         <script src="index.js"></script>
+        
+        <!-- Footer section -->
         <footer>
+            <!-- Description and logo section -->
             <div class="description-and-logo">
+                <!-- Footer logo container with link to home page -->
                 <div class="logo-container footer-logo-container">
                     <a href="/">
                         <h2 class="footer-logo-text">Wholesalers United</h2>
                     </a>
                 </div>
+                <!-- Footer description -->
                 <p class="footer-description">
                     Wholesalers United is the most united company in the world. We treat everyone as family and provide everyone with equal opportunity. We are a company of opportunity and success.
                 </p>
             </div>
+            <!-- Site links section -->
             <div class="site-links-section">
                 <h2 class="footer-header">Site Links</h2>
                 <ul class="site-links">
+                    <!-- Navigation links -->
                     <li class="nav-item"><a href="index.html" style="cursor:pointer">Home</a></li>
                     <li class="nav-item"><a href="careers.html" style="cursor:pointer">Our Careers</a></li>
                     <li class="nav-item"><a href="benefits.html" style="cursor:pointer">Our Benefits</a></li>
@@ -106,15 +135,19 @@
                     <li class="nav-item"><a href="joinus.html" style="cursor:pointer">Join Us</a></li>
                 </ul>
             </div>
+            <!-- Contact information section -->
             <div class="contact-info">
                 <h2 class="footer-header">Contact</h2>
                 <div class="contact-method">
+                    <!-- Email contact -->
                     <h3 class="contact-method-heading">Email</h3>
                     <p class="contact-method-description"><a href="">wholesalersun@gmail.com</a></p>
                 
+                    <!-- Phone number contact -->
                     <h3 class="contact-method-heading">Phone Number</h3>
                     <p class="contact-method-description"><a href="">425-877-9593</a></p>
                 
+                    <!-- Social media contact -->
                     <h3 class="contact-method-heading">Social Media</h3>
                     <div class="social-media-container">
                         <a href="https://www.instagram.com/race.2space/"><i class="fa-brands fa-instagram"></i></a>
@@ -125,7 +158,9 @@
                     </div>
                 </div>
             </div>
+            <!-- Footer map section -->
             <div class="footer-map">
+                <!-- Google Maps embed -->
                 <iframe
                     width="100%"
                     height="100%"
@@ -137,8 +172,8 @@
             </div>
         </footer>
 
-          <!-- Pop-up Overlay -->
-          <div class="overlay" id="overlay" >
+        <!-- Pop-up Overlay -->
+        <div class="overlay" id="overlay" >
             <!-- Pop-up Container -->
             <div class="popup-container">
                 <!-- Close Button -->
@@ -159,6 +194,9 @@
 
         <!-- Open Pop-up Button -->
         <button class="open-popup-btn" onclick="openPopup()">Contact Us</button>
+        
+        <!-- JavaScript file -->
         <script src="index.js"></script>
+        
     </body>
 </html>
