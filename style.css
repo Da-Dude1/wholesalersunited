@@ -1012,9 +1012,6 @@ footer{
     /* background-color: rgba(217, 217, 217, 0.55); */
 }
 
-
-
-
 .popup {
     background: #fff;
     /* padding: 20px; */
@@ -1027,6 +1024,10 @@ footer{
     top:0;
     box-shadow: 0 4px 24px -8px rgba(2, 48, 71, 0.6);
     /* padding-top: 4%; */
+}
+
+@media only screen and (max-width: 450px) {
+    box-shadow: none;
 }
 
 .banner-join{
