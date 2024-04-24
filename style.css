@@ -733,7 +733,8 @@ footer{
 
 @media only screen and (max-width: 1100px) {
     .hero-careers {
-        height: 500px;
+        height: 40vh;
+        background-attachment: fixed;
     }
 }
 
