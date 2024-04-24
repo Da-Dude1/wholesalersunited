@@ -1306,7 +1306,7 @@ a{
         width: 80%;
         z-index: 999; /* Ensure it's on top of other content */
         margin: 10%;
-        background-color: rgba(217, 217, 217, 0.55);
+        
     }
 
     .search-filter{
