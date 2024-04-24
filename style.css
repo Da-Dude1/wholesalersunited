@@ -711,8 +711,8 @@ footer{
 
 .hero-careers{
     height: 80vh; 
-/*     display: flex;
-    flex-direction: column; */
+    display: flex;
+    flex-direction: column;
     background-image: url("./assets/1607955302073.jpg");
     background-repeat: no-repeat;
     background-size: cover;
