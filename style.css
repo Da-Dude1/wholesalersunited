@@ -2002,7 +2002,7 @@ input[type='file']::-webkit-file-upload-button{
         transform: translateX(10%)
     }
 
-    .nav-app{
+/*     .nav-app{
         height:150px;
-    }
+    } */
 }
