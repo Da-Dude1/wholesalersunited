@@ -710,7 +710,7 @@ footer{
 /* Careers Tab */
 
 .hero-careers{
-    height: 80vh; 
+    height: 600px; 
     display: flex;
     flex-direction: column;
     background-image: url("./assets/1607955302073.jpg");
