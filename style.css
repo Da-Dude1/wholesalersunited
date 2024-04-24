@@ -2001,4 +2001,8 @@ input[type='file']::-webkit-file-upload-button{
     .footer-logo-text{
         transform: translateX(10%)
     }
+
+    nav{
+        height:150px;
+    }
 }
