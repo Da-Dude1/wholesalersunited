@@ -1439,7 +1439,7 @@ a{
 
 @media only screen and (max-width: 1100px) {
     .b-text p, .b-text h1{
-        font-size: 3.5vw;
+        font-size: 3.75vw;
     }
 
     .benefit-1-img,
@@ -1447,10 +1447,6 @@ a{
     .benefit-3-img,
     .benefit-4-img {
         width: 100%;
-    }
-
-    .b-text{
-        font-size: 1.2rem;
     }
 }
 
