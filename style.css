@@ -811,17 +811,17 @@ footer{
 }
 
 .careersSlideshowPageTwo  .careeHeading h2 {
-    font-size: 38px; /* Increased font size */
+    font-size: 30px; /* Increased font size */
     color: #333;
     font-weight: bold;
     text-transform: uppercase;
-    margin: 0;
+    margin-bottom: 20px;
     letter-spacing: 2.5px;
 }
 
 @media only screen and (max-width: 750px) {
     .careersSlideshowPageTwo .careeHeading h2 {
-        font-size: 28px;
+        font-size: 25px;
     }
 }
 
