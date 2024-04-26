@@ -1438,8 +1438,12 @@ a{
 }
 
 @media only screen and (max-width: 1100px) {
-    .b-text p, .b-text h1{
+    .b-text p{
         font-size: 3.75vw;
+    }
+
+    .b-text h1 {
+        font-size: 4vw;
     }
 
     .benefit-1-img,
