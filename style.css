@@ -818,6 +818,13 @@ footer{
     margin: 0;
     letter-spacing: 2.5px;
 }
+
+@media only screen and (max-width: 750px) {
+    .careersSlideshowPageTwo .careeHeading h2 {
+        font-size: 28px;
+    }
+}
+
 #real-logo {
     width: 40px;
     height: 30px;
@@ -1423,7 +1430,7 @@ a{
     color: rgb(0, 0, 0);
 }
 
-@media only screen and (min-width: 750px ) and (max-width: 850) {
+@media only screen and (min-width: 750px ) and (max-width: 850px) {
     .b-text {
         font-size: 1.35vw;
 
@@ -1432,7 +1439,7 @@ a{
 
 @media only screen and (max-width: 1100px) {
     .b-text p, .b-text h1{
-        font-size: 3vw;
+        font-size: 3.5vw;
     }
 
     .benefit-1-img,
